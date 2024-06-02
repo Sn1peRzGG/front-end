@@ -22,7 +22,7 @@ function Login() {
 
 		try {
 			const response = await axios.post(
-				'https://dashboard-back-end-brown.vercel.app/auth/login',
+				'https://dashboard-back-end-95dw.onrender.com//auth/login',
 				formData
 			)
 			console.log(response.data)
