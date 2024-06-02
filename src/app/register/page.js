@@ -39,7 +39,7 @@ function Register() {
 		}
 
 		try {
-			await axios.post('https://dashboard-back-end-brown.vercel.app/auth/register', formData)
+			await axios.post('https://dashboard-back-end-95dw.onrender.com//auth/register', formData)
 			setFormData({
 				firstName: '',
 				lastName: '',
