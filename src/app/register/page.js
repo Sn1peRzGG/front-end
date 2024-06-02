@@ -39,7 +39,7 @@ function Register() {
 		}
 
 		try {
-			await axios.post('http://localhost:8000/auth/register', formData)
+			await axios.post('https://dashboard-back-end-brown.vercel.app/auth/register', formData)
 			setFormData({
 				firstName: '',
 				lastName: '',
